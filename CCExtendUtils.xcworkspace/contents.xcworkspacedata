@@ -5,7 +5,7 @@
       location = "group:Example/CCExtendUtilsDemo.xcodeproj">
    </FileRef>
    <Group
-      location = "group:CCExtendUtils"
+      location = "container:CCExtendUtils"
       name = "CCExtendUtils">
       <Group
          location = "group:NSString+CCExtends"
