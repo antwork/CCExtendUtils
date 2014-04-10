@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Example/CCExtendUtilsDemo.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:CCExtendUtils"
+      name = "CCExtendUtils">
+      <Group
+         location = "group:NSString+CCExtends"
+         name = "NSString+CCExtends">
+         <FileRef
+            location = "group:NSString+CCValidate.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+CCValidate.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:UITextField+CCValidate"
+         name = "UITextField+CCValidate">
+         <FileRef
+            location = "group:CCValidateEmailTextField.h">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidateEmailTextField.m">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidateNumberTextField.h">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidateNumberTextField.m">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidatePhoneTextField.h">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidatePhoneTextField.m">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidateTextField.h">
+         </FileRef>
+         <FileRef
+            location = "group:CCValidateTextField.m">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
