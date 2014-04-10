@@ -20,11 +20,11 @@
 		1809FB3E18F640A3003F1CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1809FB1A18F640A2003F1CBC /* Foundation.framework */; };
 		1809FB3F18F640A3003F1CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1809FB1E18F640A2003F1CBC /* UIKit.framework */; };
 		1809FB4718F640A3003F1CBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1809FB4518F640A3003F1CBC /* InfoPlist.strings */; };
-		18133A1D18F658B90085C178 /* NSString+CCValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18133A1318F658B90085C178 /* NSString+CCValidate.m */; };
-		18133A1E18F658B90085C178 /* CCValidateEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18133A1618F658B90085C178 /* CCValidateEmailTextField.m */; };
-		18133A1F18F658B90085C178 /* CCValidateNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18133A1818F658B90085C178 /* CCValidateNumberTextField.m */; };
-		18133A2018F658B90085C178 /* CCValidatePhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18133A1A18F658B90085C178 /* CCValidatePhoneTextField.m */; };
-		18133A2118F658B90085C178 /* CCValidateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18133A1C18F658B90085C178 /* CCValidateTextField.m */; };
+		185FCA4218F682F100A0127D /* NSString+CCValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FCA3818F682F100A0127D /* NSString+CCValidate.m */; };
+		185FCA4318F682F100A0127D /* CCValidateEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FCA3B18F682F100A0127D /* CCValidateEmailTextField.m */; };
+		185FCA4418F682F100A0127D /* CCValidateNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FCA3D18F682F100A0127D /* CCValidateNumberTextField.m */; };
+		185FCA4518F682F100A0127D /* CCValidatePhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FCA3F18F682F100A0127D /* CCValidatePhoneTextField.m */; };
+		185FCA4618F682F100A0127D /* CCValidateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FCA4118F682F100A0127D /* CCValidateTextField.m */; };
 		18E37E9918F65227004D4C57 /* CCNSStringValidateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E37E9818F65227004D4C57 /* CCNSStringValidateTests.m */; };
 /* End PBXBuildFile section */
 
@@ -57,16 +57,16 @@
 		1809FB3C18F640A3003F1CBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1809FB4418F640A3003F1CBC /* CCExtendUtilsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCExtendUtilsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1809FB4618F640A3003F1CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18133A1218F658B90085C178 /* NSString+CCValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CCValidate.h"; sourceTree = "<group>"; };
-		18133A1318F658B90085C178 /* NSString+CCValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CCValidate.m"; sourceTree = "<group>"; };
-		18133A1518F658B90085C178 /* CCValidateEmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateEmailTextField.h; sourceTree = "<group>"; };
-		18133A1618F658B90085C178 /* CCValidateEmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateEmailTextField.m; sourceTree = "<group>"; };
-		18133A1718F658B90085C178 /* CCValidateNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateNumberTextField.h; sourceTree = "<group>"; };
-		18133A1818F658B90085C178 /* CCValidateNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateNumberTextField.m; sourceTree = "<group>"; };
-		18133A1918F658B90085C178 /* CCValidatePhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidatePhoneTextField.h; sourceTree = "<group>"; };
-		18133A1A18F658B90085C178 /* CCValidatePhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidatePhoneTextField.m; sourceTree = "<group>"; };
-		18133A1B18F658B90085C178 /* CCValidateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateTextField.h; sourceTree = "<group>"; };
-		18133A1C18F658B90085C178 /* CCValidateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateTextField.m; sourceTree = "<group>"; };
+		185FCA3718F682F100A0127D /* NSString+CCValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CCValidate.h"; sourceTree = "<group>"; };
+		185FCA3818F682F100A0127D /* NSString+CCValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CCValidate.m"; sourceTree = "<group>"; };
+		185FCA3A18F682F100A0127D /* CCValidateEmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateEmailTextField.h; sourceTree = "<group>"; };
+		185FCA3B18F682F100A0127D /* CCValidateEmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateEmailTextField.m; sourceTree = "<group>"; };
+		185FCA3C18F682F100A0127D /* CCValidateNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateNumberTextField.h; sourceTree = "<group>"; };
+		185FCA3D18F682F100A0127D /* CCValidateNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateNumberTextField.m; sourceTree = "<group>"; };
+		185FCA3E18F682F100A0127D /* CCValidatePhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidatePhoneTextField.h; sourceTree = "<group>"; };
+		185FCA3F18F682F100A0127D /* CCValidatePhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidatePhoneTextField.m; sourceTree = "<group>"; };
+		185FCA4018F682F100A0127D /* CCValidateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValidateTextField.h; sourceTree = "<group>"; };
+		185FCA4118F682F100A0127D /* CCValidateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValidateTextField.m; sourceTree = "<group>"; };
 		18E37E9818F65227004D4C57 /* CCNSStringValidateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNSStringValidateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,41 +169,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18133A1018F658B90085C178 /* CCExtendUtils */ = {
+		185FCA3518F682F100A0127D /* CCExtendUtils */ = {
 			isa = PBXGroup;
 			children = (
-				18133A1118F658B90085C178 /* NSString+CCExtends */,
-				18133A1418F658B90085C178 /* UITextField+CCValidate */,
+				185FCA3618F682F100A0127D /* NSString+CCExtends */,
+				185FCA3918F682F100A0127D /* UITextField+CCValidate */,
 			);
 			name = CCExtendUtils;
 			path = ../../../CCExtendUtils;
 			sourceTree = "<group>";
 		};
-		18133A1118F658B90085C178 /* NSString+CCExtends */ = {
+		185FCA3618F682F100A0127D /* NSString+CCExtends */ = {
 			isa = PBXGroup;
 			children = (
-				18133A1218F658B90085C178 /* NSString+CCValidate.h */,
-				18133A1318F658B90085C178 /* NSString+CCValidate.m */,
+				185FCA3718F682F100A0127D /* NSString+CCValidate.h */,
+				185FCA3818F682F100A0127D /* NSString+CCValidate.m */,
 			);
-			name = "NSString+CCExtends";
-			path = "../CCExtendUtils/NSString+CCExtends";
-			sourceTree = SOURCE_ROOT;
+			path = "NSString+CCExtends";
+			sourceTree = "<group>";
 		};
-		18133A1418F658B90085C178 /* UITextField+CCValidate */ = {
+		185FCA3918F682F100A0127D /* UITextField+CCValidate */ = {
 			isa = PBXGroup;
 			children = (
-				18133A1518F658B90085C178 /* CCValidateEmailTextField.h */,
-				18133A1618F658B90085C178 /* CCValidateEmailTextField.m */,
-				18133A1718F658B90085C178 /* CCValidateNumberTextField.h */,
-				18133A1818F658B90085C178 /* CCValidateNumberTextField.m */,
-				18133A1918F658B90085C178 /* CCValidatePhoneTextField.h */,
-				18133A1A18F658B90085C178 /* CCValidatePhoneTextField.m */,
-				18133A1B18F658B90085C178 /* CCValidateTextField.h */,
-				18133A1C18F658B90085C178 /* CCValidateTextField.m */,
+				185FCA3A18F682F100A0127D /* CCValidateEmailTextField.h */,
+				185FCA3B18F682F100A0127D /* CCValidateEmailTextField.m */,
+				185FCA3C18F682F100A0127D /* CCValidateNumberTextField.h */,
+				185FCA3D18F682F100A0127D /* CCValidateNumberTextField.m */,
+				185FCA3E18F682F100A0127D /* CCValidatePhoneTextField.h */,
+				185FCA3F18F682F100A0127D /* CCValidatePhoneTextField.m */,
+				185FCA4018F682F100A0127D /* CCValidateTextField.h */,
+				185FCA4118F682F100A0127D /* CCValidateTextField.m */,
 			);
-			name = "UITextField+CCValidate";
-			path = "../CCExtendUtils/UITextField+CCValidate";
-			sourceTree = SOURCE_ROOT;
+			path = "UITextField+CCValidate";
+			sourceTree = "<group>";
 		};
 		18E37E9F18F65711004D4C57 /* ViewAndControllers */ = {
 			isa = PBXGroup;
@@ -215,7 +213,7 @@
 		18E37EA018F65885004D4C57 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				18133A1018F658B90085C178 /* CCExtendUtils */,
+				185FCA3518F682F100A0127D /* CCExtendUtils */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -318,14 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18133A1E18F658B90085C178 /* CCValidateEmailTextField.m in Sources */,
-				18133A2118F658B90085C178 /* CCValidateTextField.m in Sources */,
-				18133A2018F658B90085C178 /* CCValidatePhoneTextField.m in Sources */,
+				185FCA4318F682F100A0127D /* CCValidateEmailTextField.m in Sources */,
+				185FCA4618F682F100A0127D /* CCValidateTextField.m in Sources */,
+				185FCA4518F682F100A0127D /* CCValidatePhoneTextField.m in Sources */,
 				1809FB2B18F640A2003F1CBC /* CCAppDelegate.m in Sources */,
-				18133A1F18F658B90085C178 /* CCValidateNumberTextField.m in Sources */,
+				185FCA4418F682F100A0127D /* CCValidateNumberTextField.m in Sources */,
 				1809FB2718F640A2003F1CBC /* main.m in Sources */,
 				1809FB3418F640A3003F1CBC /* CCViewController.m in Sources */,
-				18133A1D18F658B90085C178 /* NSString+CCValidate.m in Sources */,
+				185FCA4218F682F100A0127D /* NSString+CCValidate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
