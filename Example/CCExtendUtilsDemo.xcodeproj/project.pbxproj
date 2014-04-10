@@ -185,8 +185,9 @@
 				18133A1218F658B90085C178 /* NSString+CCValidate.h */,
 				18133A1318F658B90085C178 /* NSString+CCValidate.m */,
 			);
-			path = "NSString+CCExtends";
-			sourceTree = "<group>";
+			name = "NSString+CCExtends";
+			path = "../CCExtendUtils/NSString+CCExtends";
+			sourceTree = SOURCE_ROOT;
 		};
 		18133A1418F658B90085C178 /* UITextField+CCValidate */ = {
 			isa = PBXGroup;
@@ -200,8 +201,9 @@
 				18133A1B18F658B90085C178 /* CCValidateTextField.h */,
 				18133A1C18F658B90085C178 /* CCValidateTextField.m */,
 			);
-			path = "UITextField+CCValidate";
-			sourceTree = "<group>";
+			name = "UITextField+CCValidate";
+			path = "../CCExtendUtils/UITextField+CCValidate";
+			sourceTree = SOURCE_ROOT;
 		};
 		18E37E9F18F65711004D4C57 /* ViewAndControllers */ = {
 			isa = PBXGroup;
